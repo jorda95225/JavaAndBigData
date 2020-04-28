@@ -1,0 +1,4 @@
+jordan1,shandong,jinan,18,370102198606431256
+jordan2,jiangsu,nanjing,19,330102198606431256
+jordan3,shandong,qingdao,20,370103198606431256
+jordan4,jiangsu,suzhou,21,330104198606431256
