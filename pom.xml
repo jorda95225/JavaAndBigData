@@ -15,6 +15,7 @@
         <module>OperatingSystem</module>
         <module>Network</module>
         <module>Flink</module>
+        <module>DataBase</module>
     </modules>
 
     <build>
