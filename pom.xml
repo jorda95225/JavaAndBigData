@@ -16,6 +16,9 @@
         <module>Network</module>
         <module>Flink</module>
         <module>DataBase</module>
+        <module>Hadoop</module>
+        <module>Zookeeper</module>
+        <module>Others</module>
     </modules>
 
     <build>
