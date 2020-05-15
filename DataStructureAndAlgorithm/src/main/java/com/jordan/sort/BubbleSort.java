@@ -22,10 +22,17 @@ public class BubbleSort {
     }
 
     public static void swap(int[] arr, int i, int j) {
-        arr[i] = arr[i] ^ arr[j];
-        arr[j] = arr[i] ^ arr[j];
-        arr[i] = arr[i] ^ arr[j];
+        int tmp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = tmp;
     }
+
+    //使用异或时，如果在数组中和本身交换，结果会出错
+//    public static void swap(int[] arr, int i, int j) {
+//        arr[i] = arr[i] ^ arr[j];
+//        arr[j] = arr[i] ^ arr[j];
+//        arr[i] = arr[i] ^ arr[j];
+//    }
 
     //随机数组发生器
     public static int[] getRandomArray(int size, int value) {
