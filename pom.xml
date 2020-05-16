@@ -19,6 +19,7 @@
         <module>Hadoop</module>
         <module>Zookeeper</module>
         <module>Others</module>
+        <module>Scala</module>
     </modules>
 
     <build>
