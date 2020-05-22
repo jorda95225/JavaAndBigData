@@ -1,5 +1,8 @@
 package com.jordan;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
 /**
  * @autheor masheng
  * @description
@@ -7,10 +10,7 @@ package com.jordan;
  */
 public class Test {
     public static void main(String[] args) {
-        int i = 1;
-        i++;
-        int j = 2;
-        j++;
-        System.out.println("i = " + i + ",j = " + j);
+        String s = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss.SSS").format(new Date());
+        System.out.println(s);
     }
 }

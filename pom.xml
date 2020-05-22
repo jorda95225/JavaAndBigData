@@ -20,6 +20,8 @@
         <module>Zookeeper</module>
         <module>Others</module>
         <module>Scala</module>
+        <module>Kafka</module>
+        <module>Hive</module>
     </modules>
 
     <build>
